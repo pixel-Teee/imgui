@@ -16,6 +16,6 @@ file(GLOB ImGuiSrc
 "imgui_demo.cpp"
 )
 
-add_library(ImGuiSrc STATIC ImGuiSrc)
+add_library(ImGuiSrc STATIC ${ImGuiSrc})
 
 
